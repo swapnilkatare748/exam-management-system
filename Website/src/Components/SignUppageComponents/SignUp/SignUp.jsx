@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import styles from "./SignUP.module.css"; // Import modular CSS
+import styles from "./SignUp.module.css"; // Import modular CSS
 import { FiCodesandbox } from "react-icons/fi";
 import { COMPANY_NAME } from "../../../Data.jsx";
 import { useNavigate } from "react-router-dom";
