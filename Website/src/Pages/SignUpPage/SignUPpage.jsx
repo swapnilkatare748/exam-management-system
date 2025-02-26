@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SignUPpage.module.css';
+import styles from './SignUppage.module.css';
 import RegistrationForm from '../../Components/SignUppageComponents/SignUp/SignUp';
 import WebsiteWrapper from '../../Components/WebsiteWrapper';
 
