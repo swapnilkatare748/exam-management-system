@@ -8,7 +8,7 @@ import SignUPpage from './Pages/SignUpPage/SignUPpage';
 import LoginePage from './Pages/Loginpage/LoginePage';
 import Footer from './Components/Footer/Footer';
 import Setting from './Pages/AdminePages/SettingPage/Setting.jsx';
-import ExamPanel from './Components/HomeComponents/ExamPanel/ExamPanel ';
+import ExamPanel from './Components/HomeComponents/ExamPanel/ExamPanel.jsx';
 import AdmineDashbord from './Files/AdmineDashbord.jsx'
 import ExamDashbord from './Files/ExamDashbord.jsx';
 import ViewExamPage from './Pages/AdminePages/ViewExamPage/ViewExamPage.jsx';
