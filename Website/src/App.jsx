@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css';
 import { BrowserRouter , Routes, Route, Link } from 'react-router-dom';
-import Homepage from './Pages/HomePage/Homepage';
-import Navbar from './Components/Navbar/Navbar';
+import Homepage from './Pages/HomePage/Homepage.jsx';
+import Navbar from './Components/Navbar/Navbar.jsx';
 import ThemeToggel from './Components/ThemeToggle/ThemeToggel';
-import SignUPpage from './Pages/SignUpPage/SignUPpage';
-import LoginePage from './Pages/Loginpage/LoginePage';
-import Footer from './Components/Footer/Footer';
+import SignUPpage from './Pages/SignUpPage/SignUPpage.jsx';
+import LoginePage from './Pages/Loginpage/LoginePage.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 import Setting from './Pages/AdminePages/SettingPage/Setting.jsx';
 import ExamPanel from './Components/HomeComponents/ExamPanel/ExamPanel.jsx';
 import AdmineDashbord from './Files/AdmineDashbord.jsx'
