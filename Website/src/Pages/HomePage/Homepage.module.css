@@ -1,0 +1,16 @@
+.Homepage{
+    margin-top: 60px;
+    min-height: 100vh;
+}
+.ManageAdmin{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+@media (max-width:500px){
+    .ManageAdmin{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,85 @@
+.settingsContainer {
+  min-width: 500px;
+  padding: 16px;
+  background: var(--bg-secondary);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.optionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.optionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdownButton {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.dropdownButton:hover {
+  background-color: var(--color-primary);
+}
+
+.icon {
+  margin-left: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.switch {
+  width: 42px;
+  height: 22px;
+  border-radius: 9999px;
+  position: relative;
+  cursor: pointer;
+}
+
+.switchOn {
+  background-color: #3b82f6;
+}
+
+.switchOff {
+  background-color: #444;
+}
+
+.toggle {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  transition: transform 0.3s ease;
+}
+
+.toggleOn {
+  transform: translateX(-20px);
+}
+
+.toggleOff {
+  transform: translateX(2px);
+}
+
+@media (max-width: 700px) {
+  .settingsContainer {
+    width: 100%;
+    height: 100vh;
+  }
+}

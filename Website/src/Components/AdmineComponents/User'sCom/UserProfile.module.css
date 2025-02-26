@@ -1,0 +1,129 @@
+/* UserProfile.module.css */
+
+.UserProfile {
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: auto; /* Handle tables on smaller screens */
+    background: var( --bg-secondary);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th, 
+  thead td {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+
+  tbody td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile h5 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+    .buttTreedotbtn {
+    padding: 5px 10px;
+    background: var( --bg-secondary);
+    color: var(--color-text);
+    width: 50%;
+    height: 100%;
+    border: none;
+    font-size: large;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  .userPopup{
+    position: absolute;
+     right: 20px;
+     background-color: var(--bg-secondary);
+     border-radius: 10px;
+     border: solid 1px;
+  }
+ .chDiv{
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.Treedot{
+  background-color: transparent;
+  width: 50%;
+  cursor: pointer;
+}
+
+ .chDiv:hover{
+  background: var(--gradient-1);
+  color: var(--color-white);
+ }
+  
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    .profile h5 {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 5px;
+    }
+  }
+
+  .UserPro{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+  }
+  
+  @media (max-width: 480px) {
+    .profile {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .profile img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    table {
+      font-size: 12px;
+    }
+  
+    button {
+      font-size: 10px;
+      padding: 3px;
+    }
+  }
+  

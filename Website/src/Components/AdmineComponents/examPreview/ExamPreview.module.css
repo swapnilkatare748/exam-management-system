@@ -1,0 +1,81 @@
+.container {
+    padding: 20px;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    width: 40%;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--bg-secondary);
+  }
+  
+  .menu{
+    align-items: center;
+  }
+  .menu:hover{
+    cursor: pointer;
+  }
+  .table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table th {
+    background: var(--gradient-1);
+    color: var(--color-white);
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background: var(--bg-primary);
+  }
+  
+  .table tbody tr:hover {
+    background: var(--bg-secondary);
+  }
+  
+  .noData {
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    color: #777;
+  }
+
+  /* menu popup styles   */
+  .userPopup{
+    position: absolute;
+     right: 20px;
+     background-color: var(--bg-secondary);
+     border-radius: 10px;
+     border: solid 1px;
+  }
+ .chDiv{
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.Treedot{
+  background-color: transparent;
+  width: 50%;
+  cursor: pointer;
+}
+
+ .chDiv:hover{
+  background: var(--gradient-1);
+  color: var(--color-white);
+ }
+
+
+ @media (max-width:500px){
+    .container{
+       width: 100%;
+    }
+}
+  

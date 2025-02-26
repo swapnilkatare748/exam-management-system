@@ -1,0 +1,168 @@
+.formContainer {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 70vh;
+  background: var(--bg-secondary);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: var(--color-muted);
+}
+
+.inputGroup {
+  margin-bottom: 10px;
+  flex: 1;
+}
+.content{
+  width: 100%;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1rem ;
+}
+
+.inputgroupParent{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+.fisrtContent{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5%;
+  border-right: 1px solid var(--color-muted);
+}
+.inputGroupProfile{
+  height: 75%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: rgba(222, 184, 135, 0.679);
+  box-shadow: var(--shadow-1);
+  border: 1px solid;
+}
+.profilePhotoInput{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  position: absolute;
+}
+.photoPreviewContainer{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+.photoPreviewContainer > img{
+  width: 100%;
+  width: 100%;
+}
+.retackphoto{
+  position: relative;
+  top: 20px;
+}
+
+/* last content  */
+
+.lastContent{
+  padding: 0px 20px;
+  overflow-y: auto;
+}
+
+
+.redioGroup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.redioGroup > label{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .formContainer {
+      padding: 15px;
+  }
+
+  .input {
+      font-size: 0.9rem;
+  }
+
+  .submitButton {
+      font-size: 0.9rem;
+  }
+ 
+}
+
+.photoPreviewContainer {
+  text-align: center;
+}
+
+.photoPreview {
+  max-width: 100%;
+  max-height: 160px;
+  margin-bottom: 10px;
+}
+
+.link{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--gradient-1);
+}

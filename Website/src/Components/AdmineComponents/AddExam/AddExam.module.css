@@ -1,0 +1,89 @@
+/* AddExam.module.css */
+.formContainer {
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .input,
+  .textarea,
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s;
+  }
+  
+  .input:focus,
+  .textarea:focus,
+  select:focus {
+    border-color: #0066ff;
+    outline: none;
+  }
+  
+  .textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .submitButton {
+    padding: 12px;
+    background: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submitButton:hover {
+    background: #0052cc;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .formContainer {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .heading {
+      font-size: 1.5rem;
+    }
+  
+    .input,
+    .textarea,
+    select {
+      font-size: 0.9rem;
+    }
+  }
+  

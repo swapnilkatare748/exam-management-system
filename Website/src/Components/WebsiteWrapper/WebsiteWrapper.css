@@ -1,0 +1,9 @@
+.Dashbord_Main{
+    padding-left: 300px;
+    transition: var(--transition);
+}
+@media(max-Width:900px){
+    .Dashbord_Main{
+        padding-left: 0 !important;
+    }
+}

@@ -1,0 +1,16 @@
+.DeleteButton{
+    color: var(--bg-primary);
+    background-color: var(--color-danger);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+.DeleteButton:hover{
+    cursor: pointer;
+    background-color: var(--bg-primary);
+    color: var(--color-danger);
+    transition: 0.2s;
+    box-shadow: var(--shadow-1);
+}

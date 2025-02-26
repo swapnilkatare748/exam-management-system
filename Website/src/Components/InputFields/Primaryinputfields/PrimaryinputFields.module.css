@@ -1,0 +1,7 @@
+.PrimaryinputFields{
+       color: var(--color-muted);
+       width: max-content;
+       padding: 10px 20px;
+       border: none;
+       border-radius: 5px;
+}

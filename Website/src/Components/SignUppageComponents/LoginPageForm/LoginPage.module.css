@@ -1,0 +1,129 @@
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.loginForm {
+    background: var(--bg-secondary);
+    padding: 2rem;
+    height: 70vh;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 400px;
+}
+
+.login_name{
+    text-align: center;
+    margin: 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--color-muted);
+    font-size: 1.5rem;
+}
+
+.inputGroup {
+    margin-bottom: 1rem;
+
+}
+
+.inputGroupheading{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--gray-border);
+    font-size: 0.9rem;
+}
+.error{
+    color: var(--red);
+}
+
+.input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem ;
+  }
+  
+
+.loginButton {
+    width: 100%;
+    padding: 0.8rem;
+    background: #007bff;
+    color: var(--bg-secondary);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.loginButton:hover {
+    background: var(--gradient-1);
+}
+.role{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    width: 100%;
+}
+.text_login{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.ForgatePassword{
+    color: var(--red);
+    text-decoration: underline;
+}
+
+.link{
+    margin-top: 14px;
+    text-align: center;
+    font-size: 10px;
+    color: var(--gradient-1);
+}
+.link:nth-child(2){
+    color: var(--red);
+}
+.role > label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width:1326px){
+    .loginForm{
+        height: 50vh;
+    }
+}

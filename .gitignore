@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Build files
+build/
+dist/
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & OS-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+package-lock.json
+yarn.lock
+
+# Tests coverage
+coverage/
+
+# Database
+*.sqlite
+*.sqlite-journal
+/mongodb/
+
+# Misc
+*.bak
+*.tmp
+*.env.local
+.env.development
+.env.production
+.env.test
+.env*.local

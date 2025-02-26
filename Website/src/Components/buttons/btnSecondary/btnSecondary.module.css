@@ -1,0 +1,16 @@
+.BtnSecondary{
+    width: max-content;
+    padding: 10px 20px;
+    border: 2px solid var(--bg-secondary);
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;  
+    color: var(--bg-primary);
+    background: none;
+    margin-top: 10px;
+}
+.BtnSecondary:hover{
+    background: var(--bg-secondary);
+    color: var(--btn-primery);
+    box-shadow: 2px 2px 5px var(--bg-primary);
+}

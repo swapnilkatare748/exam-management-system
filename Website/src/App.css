@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root{
+  --color-primary: #1126ef;
+  --color-primary-accent:blueviolet;
+  --btn-primery :#009DFF;
+  --color-white:#ffffff; 
+  --color-text:#111111;
+  --color-text-accent:#2b2a2a;
+  --color-muted: #808080;
+  --color-success:#33c648;
+  --color-danger:#fc605b;
+  --color-warning:#ffbb55;
+  --transition:all 400ms ease;
+  --gray-border:1px solid rgba(125, 125, 130, 0.493);
+  --bg-primary: #f1f1f1;
+  --bg-secondary: #FFFFFF;
+  --red:rgba(245, 25, 25, 0.689);
+  --bg-variant: #e9e6e6;
+  --btnShodow: 2px 2px 5% var(--gray-border);
+  --gradient-1:linear-gradient(to right, var(--color-primary) 0%, var(--color-primary-accent) 100%);
+  --shadow-1: inset 0 0 0.5px 1px hsla(0, 0%,  
+              100%, 0.075),
+              /* shadow ring 👇 */
+              0 0 0 1px hsla(0, 0%, 0%, 0.05),
+              /* multiple soft shadows 👇 */
+              0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+              0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+              0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+}
+
+[data-theme="dark"] {
+    --color-text:#FFFFFF;
+    --color-text-accent:#b8b6b6;
+    --gray-border:1px solid rgba(89, 88, 88, 0.633);
+    --bg-primary: #0A0A0C;
+    --bg-secondary: #171719;
+    --bg-variant: #1b1b1e;
+} 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0 ;
+  outline: 0;
+}
+
+html,body{
+  color: var(--color-text);
+  min-height: 100vh;
+  background: var(--bg-primary);
+  font-family: "poppins",sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color:var(--color-primary) transparent ;
+  
+}
+body{
+  max-width: 1800px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+p{
+  font-size: 15px;
+}
+ a{
+  color: var(--color-text);
+  text-decoration: none;
+
+ }
+ h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+ }
+
+ li{
+  list-style-type: none;
+ }
+
+ img{
+  width: 100%;
+  object-fit: cover;
+  display: block;
+ }
+ input{
+  height: 40px;
+  overflow: hidden;
+  background: transparent;
+  padding: 0 10px;
+  color: var(--color-text);
+ }
+ .muted{
+  color: var(--color-muted);
+ }
+ .primary{
+  color: var(--color-primary);
+ }
+ .gridient-text{
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .divider{
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  border-bottom: var(--gray-border);
+
+ }
+ .flex{
+  display: flex;
+  
+  gap: 20px;
+ }
+ .flex-center{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+ }
+
+ .icon-wrapper{
+  width: 2.5rem;
+  height: 2.5rem;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  font-size: 20px;
+  cursor: pointer;
+  transition: var(--transition);
+  color: var(--color-text);
+  background: var(--bg-variant);
+ }
+
+ .icon-wrapper:hover{
+  transform: 2.8rem;
+  height: 2.8rem;
+  min-width: 2.8rem;
+  max-width: 2.8rem;
+  max-height: 2.5rem;
+  min-height: 2.5rem;
+  overflow: hidden;
+  border-radius:100% ;
+  cursor: pointer;
+  transition: var(--transition);
+
+ }
+.page{
+    margin-top: 65px;
+    width: 100%;
+    height: auto;
+}
+
+
+.icon {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.btn{
+  padding: 10px 20px;
+  background-color: var(--btn-primery);
+  color: var(--bg-secondary);
+  border-radius: 5px;
+}
+.btn:hover{
+  color: (var(--color-text));
+  background-color: var(--bg-secondary);
+  cursor: pointer;
+  box-shadow: var(--shadow-1);
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.tab{
+  padding: 10px;
+}
+/* section styling */
+
+.seaction_Heading {
+  border-bottom: 1px solid red;
+  animation: bottom_animation 2s ease-in-out infinite;
+}
+
+@keyframes bottom_animation {
+  from {
+    border-bottom: 0px solid transparent;
+  }
+  to {
+    border-bottom: 2px solid red;
+  }
+}
+
+.text-center{
+   text-align: center;
+   margin: 20px 0px ;
+   color: var(--color-muted);
+}
+.userprofile{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+

@@ -1,0 +1,16 @@
+.btn_primary{
+    padding: 10px 20px;
+    margin: 2px;
+    border: none;
+    background: var(--gradient-1);
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--bg-secondary);
+}
+
+.btn_primary:hover{
+   color: var( --color-text);
+   box-shadow: var(--btnShodow);
+   background-color: var( --color-primary);
+   transition: 0.3s;
+}
