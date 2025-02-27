@@ -5,11 +5,11 @@ import Homepage from './Pages/HomePage/Homepage.jsx';
 import Navbar from './Components/Navbar/Navbar.jsx';
 import ThemeToggel from './Components/ThemeToggle/ThemeToggel';
 import SignUPpage from './Pages/SignUpPage/SignUPpage.jsx';
-import LoginePage from './Pages/Loginpage/LoginePage.jsx';
+import LoginPage from './Pages/Loginpage/LoginPage.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import Setting from './Pages/AdminePages/SettingPage/Setting.jsx';
 import ExamPanel from './Components/HomeComponents/ExamPanel/ExamPanel.jsx';
-import AdmineDashbord from './Files/AdmineDashbord.jsx'
+import AdmineDashbord from './Files/AdmineDashbord.jsx';
 import ExamDashbord from './Files/ExamDashbord.jsx';
 import ViewExamPage from './Pages/AdminePages/ViewExamPage/ViewExamPage.jsx';
 import AddQuationsPage from './Pages/AdminePages/AddQuationsPage/AddQuationsPage.jsx';
@@ -43,8 +43,8 @@ function App() {
     <div className='App'>
       {/* <Navbar/>  */}
        <Routes>
-          <Route path='/' element={<LoginePage/>}/>
-          <Route path='/login' element={<LoginePage/>}/>
+          <Route path='/' element={<LoginPage/>}/>
+          <Route path='/login' element={<LoginPage/>}/>
           <Route path='/signUp' element={<SignUPpage/>}/>
           
                  
@@ -76,7 +76,6 @@ function App() {
         >
           <Route index element={<Homepage />} />
           <Route path='dashboard' element={<Homepage />} />
-          {/* <Route path="/admin/:section/:page" element={<Homepage />} /> */}
           <Route path='add-user' element={<AddUsers/>}/>
           <Route path='add-exam' element={<AddExamPage/>}/>
           <Route path='view-exams' element={<ViewExamPage/>}/>
