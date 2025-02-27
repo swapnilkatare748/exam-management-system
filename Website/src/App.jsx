@@ -4,7 +4,7 @@ import { BrowserRouter , Routes, Route, Link } from 'react-router-dom';
 import Homepage from './Pages/HomePage/Homepage.jsx';
 import Navbar from './Components/Navbar/Navbar.jsx';
 import ThemeToggel from './Components/ThemeToggle/ThemeToggel';
-// import SignUPpage from './Pages/SignUpPage/SignUPpage.jsx';
+import SignUPpage from './Pages/SignUpPage/SignUPpage.jsx';
 import LoginPage from './Pages/Loginpage/LoginPage.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import Setting from './Pages/AdminePages/SettingPage/Setting.jsx';
@@ -45,7 +45,7 @@ function App() {
        <Routes>
           <Route path='/' element={<LoginPage/>}/>
           <Route path='/login' element={<LoginPage/>}/>
-          {/* <Route path='/signUp' element={<SignUPpage/>}/> */}
+          <Route path='/signUp' element={<SignUPpage/>}/>
           
                  
           {/* Protected routes */}
