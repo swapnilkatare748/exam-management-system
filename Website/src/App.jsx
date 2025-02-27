@@ -49,7 +49,8 @@ function App() {
           
                  
           {/* Protected routes */}
-          <Route
+{/*        
+         <Route
           path="/exam"
           element={
             <ProtectedRoute allowedRoles={["User"]}>
@@ -57,13 +58,13 @@ function App() {
             </ProtectedRoute>
           }
         >
-          {/* <Route index element={<ExamPanel />} /> */}
-          {/* <Route path='dashboard' element={<ExamPanel />} /> */}
+          <Route index element={<ExamPanel />} />
+          <Route path='dashboard' element={<ExamPanel />} />
 
           <Route path="/exam/:section/:page" element={<Homepage />} />
           <Route path='settings' element={<Setting/>}/>
 
-        </Route>
+           </Route> */}
 
           {/**addmin dash bord  */}
           <Route
