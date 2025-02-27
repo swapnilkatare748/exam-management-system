@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-// import styles from "./OllAdmineCom.module.css";
+import styles from "./OllAdmineCom.module.css";
 import { HiOutlineDotsVertical } from "react-icons/hi";
 import userimag from '../../../assets/profile/User_defolt.webp';
 import axios from "axios";
