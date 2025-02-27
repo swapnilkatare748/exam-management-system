@@ -49,7 +49,7 @@ function App() {
           
                  
           {/* Protected routes */}
-       
+{/*        
          <Route
           path="/exam"
           element={
@@ -64,7 +64,7 @@ function App() {
           <Route path="/exam/:section/:page" element={<Homepage />} />
           <Route path='settings' element={<Setting/>}/>
 
-           </Route>
+           </Route> */}
 
           {/**addmin dash bord  */}
           <Route
