@@ -8,7 +8,7 @@ import SignUPpage from './Pages/SignUpPage/SignUPpage.jsx';
 import LoginPage from './Pages/Loginpage/LoginPage.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import Setting from './Pages/AdminePages/SettingPage/Setting.jsx';
-// import ExamPanel from './Components/HomeComponents/ExamPanel/ExamPanel.jsx';
+import ExamPanel from './Components/HomeComponents/ExamPanel/ExamPanel.jsx';
 import AdmineDashbord from './Files/AdmineDashbord.jsx';
 import ExamDashbord from './Files/ExamDashbord.jsx';
 import ViewExamPage from './Pages/AdminePages/ViewExamPage/ViewExamPage.jsx';
@@ -49,7 +49,7 @@ function App() {
           
                  
           {/* Protected routes */}
-{/*        
+       
          <Route
           path="/exam"
           element={
@@ -64,7 +64,7 @@ function App() {
           <Route path="/exam/:section/:page" element={<Homepage />} />
           <Route path='settings' element={<Setting/>}/>
 
-           </Route> */}
+           </Route>
 
           {/**addmin dash bord  */}
           <Route
